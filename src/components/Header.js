@@ -4,10 +4,12 @@ const Header = () => (
   <header
     className="masthead"
     style={{
-      backgroundImage: 'url("assets/img/mw-dj.jpg")'
+      backgroundImage: 'url("assets/img/mw-dj.jpg")',
     }}
   >
-    <div style={{ backgroundColor: "rgba(0,0,0,.5)"}} className="container">
+    <div style={{
+      backgroundColor: "rgba(0,0,0,.6)"
+  }} className="containerr">
       <div
         className="intro-text"
         style={{
@@ -21,7 +23,8 @@ const Header = () => (
           className="text-capitalize"
           style={{
             fontSize: "45.5px",
-            fontFamily: "Kaushan Script"
+            fontFamily: "Kaushan Script",
+            paddingBottom: "60px"
           }}
         >
           welcome to che makuru event masters
@@ -31,7 +34,8 @@ const Header = () => (
             fontSize: "26px",
             textAlign: "center",
             textTransform: "capitalize",
-            fontFamily: "Roboto Slab"
+            fontFamily: "Roboto Slab",
+           
           }}
         >
           TURNING IDEAS INTO ACTION
