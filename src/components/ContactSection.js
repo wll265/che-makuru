@@ -49,7 +49,7 @@ const ContactSection = () => (
             className="fa fa-envelope-o fa-3x mb-3 sr-contact"
             data-aos="zoom-in"
             data-aos-duration={300}
-            data-aos-delay={300}
+            data-aos-delay={400}
             data-aos-once="true"
           />
           <p>

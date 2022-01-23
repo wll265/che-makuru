@@ -5,7 +5,7 @@ const CarouselInner = () => (
   <div className="carousel-inner" role="listbox">
    
     <div className="carousel-item active">
-      <img src="assets/img/mw-minbus.jpg" height="360px" alt="w_shop_105_02" />
+      <img src="assets/img/mw-minbus.jpg" className="img-fluid img-thumbnail" alt="w_shop_105_02" />
       <div className="w_shop_105_left_box">
         <span
           data-animation="animated fadeInLeft"
@@ -39,7 +39,7 @@ const CarouselInner = () => (
       </div>
     </div>
     <div className="carousel-item">
-      <img src="assets/img/mw-jumping-castle.jpg" height="360px" alt="w_shop_105_02" />
+      <img src="assets/img/mw-jumping-castle.jpg" className="img-fluid img-thumbnail" alt="w_shop_105_02" />
       <div className="w_shop_105_left_box">
         <span
           data-animation="animated fadeInLeft"
@@ -73,7 +73,7 @@ const CarouselInner = () => (
       </div>
     </div>
     <div className="carousel-item">
-      <img src="assets/img/mw.jpg" height="360px" alt="w_shop_105_03" />
+      <img src="assets/img/mw.jpg" className="img-fluid img-thumbnail" alt="w_shop_105_03" />
       <div className="w_shop_105_left_box">
         <span
           data-animation="animated fadeInLeft"
@@ -107,7 +107,7 @@ const CarouselInner = () => (
     </div>
 
     <div className="carousel-item">
-      <img src="assets/img/mw-tents-alt.jpg" height="360px" alt="w_shop_105_02" />
+      <img src="assets/img/mw-tents-alt.jpg" className="img-fluid img-thumbnail" alt="w_shop_105_02" />
       <div className="w_shop_105_left_box">
         <span
           data-animation="animated fadeInLeft"
