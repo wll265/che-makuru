@@ -5,7 +5,7 @@ const AboutSection = () => (
   <section
     id="about"
     style={{
-      padding: "0px 28px",
+      padding: "0px 20px",
       paddingTop: "150px"
     }}
   >
@@ -29,7 +29,7 @@ const AboutSection = () => (
             About
           </h2>
          
-          <h3
+          <p
             className="text-muted section-subheading"
             style={{
               fontSize: "23px",
@@ -54,7 +54,7 @@ const AboutSection = () => (
              Are you ready to take your business to the next level?</span>
            
              </Zoom>
-          </h3>
+          </p>
 
           
           

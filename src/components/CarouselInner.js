@@ -28,7 +28,7 @@ const CarouselInner = () => (
           audience. che makuru offers high quality Sound System to meet your
           needs
         </p>
-        <a href="#" className="animate__animated animate__">
+        <a href="#contact" className="animate__animated animate__">
           order now
         </a>
       </div>
@@ -64,7 +64,7 @@ const CarouselInner = () => (
           we offer kids entertainment items such as jumping castles for outdoor
           party events
         </p>
-        <a href="#" className="animated fadeInLeft">
+        <a href="#contact" className="animated fadeInLeft">
           order now
         </a>
       </div>
@@ -101,7 +101,7 @@ const CarouselInner = () => (
         <p className="animated fadeInLeft">
           make your cerebrations more vibrant with our featured disco lights
         </p>
-        <a href="#" className="animated fadeInLeft">
+        <a href="#contact" className="animated fadeInLeft">
           order now
         </a>
       </div>
@@ -138,7 +138,7 @@ const CarouselInner = () => (
         <p className="animated fadeInLeft">
           trusted and trusted tents for various outdoor activities
         </p>
-        <a href="#" className="animated fadeInLeft">
+        <a href="#contact" className="animated fadeInLeft">
           order now
         </a>
       </div>

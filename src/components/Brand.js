@@ -10,8 +10,8 @@ const Brand = () => (
   >
     <img  style={{
       marginRight: "10px"
-    }} src="/logo.png" height="60px" alt="w_shop_105_03"/>
-    Che Makuru.com
+    }} src="/logo.png" height="40px" alt="w_shop_105_03"/>
+    CheMakuru.com
   </a>
 );
 

@@ -11,11 +11,13 @@ import ClientsSection from "./ClientsSection";
 import EmailSection from "./EmailSection";
 import MainFooter from "./MainFooter";
 import ProductModal from "./ProductModal";
+import LightNavBar from "./LightNavBar";
 
 
 const MainBody = () => (
   <div>
-    <MainNav></MainNav>
+    {/* <MainNav></MainNav> */}
+    <LightNavBar/>
     <Header></Header>
     <AboutSection></AboutSection>
     <ServicesSection></ServicesSection>

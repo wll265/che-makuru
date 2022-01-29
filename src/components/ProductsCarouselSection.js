@@ -4,10 +4,11 @@ import CarouselInner from "./CarouselInner";
 
 const ProductsCarouselSection = () => (
   <section
+    id="products"
     style={{
       padding: "151px 2px",
       paddingTop: "0px",
-      paddingBottom: "0px"
+      paddingBottom: "0px",
     }}
   >
     <div
@@ -19,21 +20,21 @@ const ProductsCarouselSection = () => (
       data-bs-interval={8000}
       style={{
         paddingTop: "28px",
-        paddingBottom: "63px"
+        paddingBottom: "63px",
       }}
     >
       <div className="w_shop_105_main_header">
         <h1
           style={{
             fontSize: "30px",
-            fontFamily: "Kaushan Script"
+            fontFamily: "Kaushan Script",
           }}
         >
           <span>
             <i
               className="fa fa-gift"
               style={{
-                marginRight: "10px"
+                marginRight: "10px",
               }}
             />
             <strong>featured</strong>
