@@ -3,7 +3,7 @@ import React from "react";
 const Brand = () => (
   <a
     className="navbar-brand"
-    href="#page-top"
+    href="/"
     style={{
       fontFamily: "Kaushan Script"
     }}

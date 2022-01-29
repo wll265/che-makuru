@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import MainNav from "./MainNav";
 import Header from "./Header";
 import AboutSection from "./AboutSection";
@@ -10,6 +11,7 @@ import ClientsSection from "./ClientsSection";
 import EmailSection from "./EmailSection";
 import MainFooter from "./MainFooter";
 import ProductModal from "./ProductModal";
+
 
 const MainBody = () => (
   <div>

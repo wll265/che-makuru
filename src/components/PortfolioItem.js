@@ -1,4 +1,5 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 
 const PortfolioItem = (props) => (
   <div className="col-sm-6 col-md-4 portfolio-item">
@@ -11,7 +12,11 @@ const PortfolioItem = (props) => (
        
         </div>
       </div>
+      <Zoom>
       <img className="img-fluid" height="300px" src={props.src} />
+
+      </Zoom>
+     
     </a>
     {/* <div className="portfolio-caption">
       <h4>Threads</h4>

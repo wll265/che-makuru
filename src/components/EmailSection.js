@@ -1,4 +1,5 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 
 const EmailSection = () => (
   <section
@@ -7,6 +8,9 @@ const EmailSection = () => (
       backgroundImage: 'url("assets/img/map-image.png")'
     }}
   >
+    <Zoom left>
+
+   
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
@@ -100,6 +104,8 @@ const EmailSection = () => (
         </div>
       </div>
     </div>
+
+    </Zoom>
   </section>
 );
 

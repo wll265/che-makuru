@@ -1,4 +1,5 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 import ServiceItem from "./ServiceItem";
 
 const ServicesSection = () => (
@@ -34,15 +35,20 @@ const ServicesSection = () => (
       </div>
       <div className="row text-center">
         {/* <ServiceItem></ServiceItem> */}
+        <Zoom bottom>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fa fa-circle fa-stack-2x text-primary" />
             <i className="fa fa-calendar fa-stack-1x fa-inverse" />
           </span>
           <h4 className="section-heading">Event Planning</h4>
+          <Zoom left>
           <p className="text-muted">
           Prior planning prevents poor performance.  We are taking reservations for your next event. For your event's class, courtesy and convenience, make a date with us 
           </p>
+
+          </Zoom>
+         
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
@@ -50,9 +56,13 @@ const ServicesSection = () => (
             <i className="fa fa-music fa-stack-1x fa-inverse" />
           </span>
           <h4 className="section-heading">Modified Sound System</h4>
+          <Zoom top>
           <p className="text-muted"> To help you easily reach a wider audience,
 Mahala Wipha Events Management Team chips in to serve with Digital PA Systems and Sound Systems.
           </p>
+
+          </Zoom>
+          
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
@@ -60,11 +70,16 @@ Mahala Wipha Events Management Team chips in to serve with Digital PA Systems an
             <i className="fa fa-tags fa-stack-1x fa-inverse" />
           </span>
           <h4 className="section-heading">Tents And Chairs</h4>
+          <Zoom right>
           <p className="text-muted">
          We also Make your event colourful,  auspicious and memorable. Other
 Services range from lighting, Marquee tents, chairs, tables etc
           </p>
+
+          </Zoom>
+         
         </div>
+        </Zoom>
       </div>
     </div>
   </section>

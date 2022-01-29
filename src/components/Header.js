@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade, Flip, LightSpeed, Zoom } from "react-reveal";
 
 const Header = () => (
   <header
@@ -19,6 +20,7 @@ const Header = () => (
           paddingLeft: "60px"
         }}
       >
+        <Zoom bottom>
         <h1
           className="text-capitalize"
           style={{
@@ -29,6 +31,10 @@ const Header = () => (
         >
           welcome to che makuru event masters
         </h1>
+
+        </Zoom>
+        
+        <Flip left>
         <span
           style={{
             fontSize: "26px",
@@ -40,9 +46,13 @@ const Header = () => (
         >
           TURNING IDEAS INTO ACTION
         </span>
+
+        </Flip>
+        
         <div className="intro-heading text-uppercase">
           <span />
         </div>
+        <Zoom bottom>
         <a
           className="btn btn-primary btn-xl text-uppercase"
           role="button"
@@ -58,6 +68,9 @@ const Header = () => (
         >
           LEARN MORE
         </a>
+
+        </Zoom>
+        
       </div>
     </div>
   </header>

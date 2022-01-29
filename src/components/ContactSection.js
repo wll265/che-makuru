@@ -1,4 +1,5 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 
 const ContactSection = () => (
   <section
@@ -8,6 +9,9 @@ const ContactSection = () => (
       background: "var(--bs-red)"
     }}
   >
+    <Zoom bottom>
+
+   
     <div className="container">
       <div className="row">
         <div className="col-lg-8 text-center mx-auto">
@@ -65,6 +69,7 @@ const ContactSection = () => (
         </div>
       </div>
     </div>
+    </Zoom>
   </section>
 );
 
