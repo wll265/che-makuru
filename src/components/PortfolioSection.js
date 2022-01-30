@@ -45,7 +45,7 @@ const PortfolioSection = () => (
                 "assets/img/mw-event.jpg",
                 "assets/img/clearday.jpg"].map((item)=>{
                   return(
-                    <PortfolioItem src={item}/>
+                    <PortfolioItem key={item} src={item}/>
                   )
                 })
               }
